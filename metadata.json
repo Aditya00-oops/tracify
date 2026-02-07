@@ -1,0 +1,9 @@
+
+{
+  "name": "Tracify",
+  "description": "A professional-grade productivity and habit tracking dashboard with aesthetic calendar management and AI-powered task optimization.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

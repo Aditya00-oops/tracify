@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tracify | Focus & Growth</title>
+
+    <!-- Tailwind CDN (DEV MODE ONLY – OK for now) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Plus Jakarta Sans", "sans-serif"],
+            },
+            boxShadow: {
+              soft: "0 20px 60px -15px rgba(0,0,0,0.05)",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        font-family: "Plus Jakarta Sans", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="bg-white dark:bg-slate-950">
+    <div id="root"></div>
+
+    <!-- ✅ VITE ENTRY FILE -->
+    <!-- IMPORTANT: index.tsx MUST be inside /src folder -->
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>
