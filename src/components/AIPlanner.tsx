@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Task } from '../types';
-import { getProductivityAdvice } from '../services/geminiService';
+import { getProductivityAdvice } from '../../services/geminiService';
 
 interface AIPlannerProps {
   tasks: Task[];
